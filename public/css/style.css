@@ -1,0 +1,952 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #1a1d20;
+}
+header form .box{
+    display: flex;
+    margin-left: 85%;
+    top: -60px;
+    transform:  translate(-50%, 50%);
+    border-left: 1px solid red;
+}
+header input.src{
+    padding: 3px 5px 3px 4px;
+    outline: none;
+    border-radius: 15px;
+    /*background: #fff url(/img/search-icon.png) no-repeat 1px center;*/
+}
+header input[type="text"]{
+    color: black;
+}
+header nav{
+    display: none;
+}
+header nav ul li a{
+    text-decoration: none;
+     color: white;
+}
+header nav ul li{
+    list-style: none;
+   
+   
+}
+header div{
+    display: flex;
+    justify-content: flex-end;
+    bottom: 25px;
+    left: -25px;
+    position: relative;
+}
+header div a i{
+    color: white;
+    font-size: 22px;
+}
+header h1{
+    color: white;
+    margin-left: 16px;
+}
+main section figure{
+    position: relative;
+}
+main section h2{
+    font-size: 18px;
+    margin-top: -40%;
+    color: white;
+    text-shadow: 5px rgba(0,0,0,0.7);
+}
+main section div{
+    margin: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+main section figure img:hover{
+    color: rgba(0,0,0,0.7);
+}
+main section div form .suscribite{
+    border: none;
+    padding: 7px 7px;
+    background: #292c2f;
+}
+::placeholder{
+    color: #929090;
+}
+input[type="text"]{
+    color: white;
+}
+main section p{
+    position: relative;
+    margin-top: -5px;
+    color: white;
+}
+main section div form input{
+    border: none;
+    padding: 7px 7px;
+    margin-left: -4px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+main section div form .enviar{
+    margin-left: 170px;
+    margin-top: -45px;
+}
+main section div form .enviar input:hover{
+    background-color: #ffa200;
+    color: white;
+    cursor: pointer;
+}
+
+/*main #publicidad{
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    background-color: #0c9fc0;
+    position: absolute;
+}*/
+main section .parrafo{
+    color: black;
+    text-align: center;
+}
+main section div h3{
+    text-align: center;
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+main .mision{
+    background-color: #0c9fc0;
+}
+main .mision p{
+    color: black;
+    margin-top: 5%;
+    text-align: center;
+}
+main .mision i{
+    font-size: 50px;
+    margin-left: 40%;
+    margin-bottom: -20px;
+}
+main .mision i:hover{
+    color: white;
+    transform: rotate(360deg);
+        transition: all 0.7s;
+        cursor: pointer;
+}
+main .ropas{
+    background-color: #f5f5f5;
+    margin: 0;
+}
+main .ropas h4{
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    bottom: 10px;
+    font-size: 20px;
+}
+main .ropas p{
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+main .ropas span{
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: underline;
+}
+main .ropas figure{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+main .ropas figure img{
+   margin: 10px; 
+   width: 200px;
+}
+main .clientes-contenedor p{
+    color: black;
+    width: 150px;
+}
+main .clientes-contenedor .cards{
+    border-radius: 5px;
+}
+main .clientes-contenedor .cards .card{
+    background: #f5f5f5;
+    display: flex;
+    width: 290px;
+    height: 70px;
+}
+main .clientes-contenedor .cards .card img{
+    border: 3px solid white;
+    display: block;
+}
+main .clientes-contenedor h4{
+    text-align: center;
+    font-size: 20px;
+}
+main .clientes-contenedor .name{
+    font-size: 18px;
+    margin-top: -25px;
+
+}
+/*main .testimonios h4{
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+}
+main .testimonios p{
+    color: black;
+    text-align: center;
+}
+main .testimonios div{
+    background-color: #f5f5f5;
+}
+main .fondo{
+    background-color: #348b9e;
+    width: 360px;
+    height: 304px;
+    margin-top: 25%;
+    z-index: 0;
+}*/
+main .fondo .banner{
+    width: 360px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    margin-top: 25%;
+
+    background-size: 100% 100%;
+
+    animation: banner 10s infinite; 
+}
+@keyframes banner{
+    0%, 30%{
+        background-image: url(/img/banner8.jpg);
+        opacity: 1;
+    }
+    31%,34%{
+        opacity: 0.1;
+    }
+    35%,65%{
+        background-image: url(/img/banner10.jpg);
+        opacity: 1;
+    }
+    66%,69%{
+        opacity: 0.1;
+    }
+    70%,100%{
+        background-image: url(/img/banner7.jpg);
+        opacity: 1;
+    }
+}
+/*footer*/
+
+footer{
+    background-color: #222325;
+    height: 80%;
+}
+footer div p{
+    color: white;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+footer h5{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+footer div a i{
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+footer div a > i:hover{
+    color: #0c9fc0;
+}
+/*detalles del producto*/
+main .populares div{
+    text-align: center;
+    position: absolute;
+    margin-top: 30px;
+}
+
+main .populares h2{
+    color: black;
+}
+main .populares{
+    margin-top: 100px;
+}
+main .populares h2{
+    font-size: 22px;
+    padding: 5px;
+}
+main .populares p{
+    color: black;
+}
+main .populares figure{
+    text-align: center;
+    padding: 20px;
+}
+main .populares figure img{
+    width: 200px;
+    border-radius: 5px;
+}
+main .populares figure p{
+    display: inline-block;
+    font-weight: bolder;
+}
+main .populares figure .tachado{
+    text-decoration: line-through;
+    color: #929090;
+    margin: 5px;
+}
+main .populares figure hr{
+    color: #0c9fc0;
+    margin: 10px;
+}
+main .populares form{
+    margin-left: 50px;
+}
+main .populares form div input[type="checkbox"]{
+    display: none;
+}
+main .populares form label{
+    padding: 5px 15px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #0c9fc0;
+    -o-transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+main .populares form label:before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+main .populares form div input[type="checkbox"]:checked + label{
+    padding: 5px 15px;
+    background: #05829e;
+    border-radius: 2px;
+    color: white;
+}
+main .populares form div input[type="checkbox"]:checked + label:before{
+    display: none;
+}   
+main .populares .descuento{
+    display: flex;
+    color: red;
+    position: relative;
+    justify-content: center;
+    font-size: 14px;
+}
+main .populares hr{
+    width: 100%;
+    margin: 10px;
+}
+main .descripcion h4{
+    margin: 20px;
+    margin-top: 70px;
+}
+main .descripcion p{
+    color: black;
+    margin: 20px;
+}
+main .descripcion div input{
+    border: none;
+    width: 250px;
+    height: 40px;
+    margin-left: 20px;
+    background: #d67308;
+    font-size: 18px;
+    border-radius: 5px;
+}
+main .descripcion div input:hover{
+   background: #d1985a;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+::selection{
+    background: rgba(23,162,184,0.3);
+  }
+  .wrapper{
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper .box{
+    background: #fff;
+    padding: 25px;
+    border-radius: 3px;
+    
+  }
+  .wrapper .box i.quote{
+    font-size: 20px;
+    color: #17a2b8;
+  }
+  .wrapper .box .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  .box .info .name{
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .box .info .job{
+    font-size: 16px;
+    font-weight: 500;
+    color: #17a2b8;
+  }
+  .box .info .stars{
+    margin-top: 2px;
+  }
+  .box .info .stars i{
+    color: #17a2b8;
+  }
+  .box .content .image{
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #17a2b8;
+    border-radius: 50%;
+  }
+  .content .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  .box:hover .content .image img{
+    border-color: #fff;
+  }
+
+@media (min-width: 769px){
+    header h1{
+        padding: 20px;
+    }
+    header form .box{
+        display: flex;
+        margin-left: 100%;
+        top: -60px;
+        transform:  translate(-50%, 50%);
+    }
+    header input.src{
+        padding: 9px 10px 9px 32px;
+        outline: none;
+        border-radius: 15px;
+        background: #fff url(/img/search-icon.png) no-repeat 9px center;
+    }
+    header input[type="text"]{
+        color: black;
+    }
+    header div{
+        display: none;
+    }
+    header nav{
+        display: flex;
+        justify-content: center;
+        margin-top: -60px;
+        margin-left: -50px;
+    }
+    header nav ul{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    header nav ul li{
+        margin: 15px;
+    }
+    main section figure img{
+        width: 769px;
+    }
+    main section figure h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    main section figure .capa{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: -70px;
+    }
+    main section figure .capa p{
+        left: -10px;
+        font-size: 20px;
+    }
+    main .mision{
+        margin-top: 150px;
+    }
+    main .mision i{
+        margin-left: 45%;
+    }
+    main .ropas figure img{
+        width: 200px;
+    }
+    main .ropas figure{
+        display: inline-block;
+        margin-left: 15%;   
+        padding: 15px; 
+    }
+    main .ropas figure a{
+        cursor: pointer;
+    }
+    main .ropas figure img{
+        transition: all 500ms ease-out;
+    }
+    main .ropas figure:hover img{
+        transform: scale(0.8);
+    }
+    main .clientes-contenedor h4{
+        font-size: 26px;    
+        margin-top: 40px; 
+    }
+    main .clientes-contenedor p{
+        width: 150px;
+        margin-top: 30px;
+    }
+    main .clientes-contenedor .name{
+        margin-top: 5px;
+    }
+    main .clientes-contenedor img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    main .clientes-contenedor .cards .card{
+        width: 500px;
+        height: 210px;
+        box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+    }
+    main .clientes-contenedor .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    main .fondo .banner{
+        width: 769px;
+        height: 250px;
+    }
+    footer div{
+        display: flex;
+    }
+    main .descripcion div input{
+        margin-left: 35%;
+    }
+    main .populares form{
+        margin-left: 10%;
+    }
+    main .populares div{
+        text-align: center;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 25%
+    }
+    main .populares h2{
+        font-size: 22px;
+        padding: 5px;
+    }
+    main .populares p{
+        color: black;
+    }
+    main .populares figure img{
+        width: 400px;
+        border-radius: 5px;
+    }
+    main .descripcion h4{
+        margin-top: 100px;
+    }
+    /*footer{
+        margin-top: 80px;
+    }*/
+    .footer{
+        margin-top: 80px;
+    }
+    
+    ::selection{
+        background: rgba(23,162,184,0.3);
+      }
+      .wrapper{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .wrapper .box{
+        background: #fff;
+        padding: 10px;
+        border-radius: 3px;
+        
+      }
+      .wrapper .box:hover{
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.15);  
+      }
+      .wrapper .box i.quote{
+        font-size: 20px;
+        color: #17a2b8;
+      }
+      .wrapper .box .content{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .box .info .name{
+        font-weight: 600;
+        font-size: 17px;
+      }
+      .box .info .job{
+        font-size: 16px;
+        color: #17a2b8;
+      }
+      .box .info .stars{
+        margin-top: 1px;
+      }
+      .box .info .stars i{
+        color: #17a2b8;
+      }
+      .box .content .image{
+        height: 75px;
+        width: 75px;
+        padding: 3px;
+        background: #17a2b8;
+        border-radius: 50%;
+      }
+      .content .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #fff;
+      }
+      .box:hover .content .image img{
+        border-color: #fff;
+      }
+}
+
+@media (min-width: 1280px){
+    header form .box{
+        display: flex;
+        margin-left: 80%;
+        top: -60px;
+        transform:  translate(-50%, 50%);
+    }
+    header input.src{
+        padding: 9px 10px 9px 32px;
+        outline: none;
+        border-radius: 15px;
+        background: #fff url(/img/search-icon.png) no-repeat 9px center;
+        width: 300px;
+    }
+    header input[type="text"]{
+        color: black;
+    }
+    main section figure img{
+        width: 100%;
+    }
+    main section figure h2{
+        font-size: 50px;
+    }
+    main section figure .capa{
+        display: inline;
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    main section figure .capa p{
+        font-size:  30px;
+        margin-left: 100px;
+    }
+    main section div form .suscribite{
+        padding: 15px;
+        width: 520px;
+    }
+    main section div form .enviar{
+        margin-left: 550px;
+        margin-top: -61px;
+    }
+    main section div form .enviar:hover{
+        cursor: pointer;
+    }
+    main section div form .enviar input[type="submit"]{
+        padding: 15px;
+    }
+    main .mision{
+        margin-top: 440px;
+        height: 300px;
+    }
+    main .mision div .parrafo{
+        margin-top: 5px;
+    }
+    main .mision div.publi{
+        display: inline-block;
+        margin-left: 60px;
+    }
+    main .mision div.publi p{
+        text-align: center;
+    }
+    main .mision div.publi i{
+        font-size: 64px;
+    }
+    main .ropas h4{
+        font-size: 35px;
+    }
+    main .ropas figure{
+        display: inline-block;
+        width: 100px;
+    }
+    main .fondo .banner{
+        width: 100%;
+        height: 400px;
+    }
+    footer h5{
+        font-size: 30px;
+    }
+    footer div a i{
+        font-size: 35px;
+    }
+    main .populares div{
+        margin: 30px;
+        margin-top: 100px;
+    }   
+    main .populares div h2{
+        font-size: 28px;
+    }
+    main .populares figure img{
+        display: flex;
+        margin: 30px
+    }
+    main .populares figure{
+        display: flex;
+    }
+    main .populares figure hr{
+        display: none;
+    }
+    main .populares figure h3{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    main .populares .descuento{
+        margin-left: -225px;
+        margin-top: 50px;
+    }
+    main .populares .money{
+        margin-top: 80PX;
+        margin-left: -115px;
+        font-size: 24px;
+    }
+    main .populares figure .tachado{
+        margin-top: 80px;
+        font-size: 24px;
+    }
+    main .populares figure .talles{
+        margin-top: 120px;
+        margin-left: -160px ;
+        font-size: 26px;
+    }
+    main .populares figure form{
+        margin-top: 60px;
+        margin-left: -100px;
+        font-size: 24px;
+    }
+    main .descripcion h4{
+        display: flex;
+        justify-content: center;
+        margin-top: -250px;
+        margin-left: -180px;
+        position: relative;
+    }
+    main .descripcion p{
+        width: 600px;
+        margin-left: 500px;
+    }
+    main .descripcion form{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    ::selection{
+        background: rgba(23,162,184,0.3);
+      }
+      .wrapper{
+        display: flex;
+        padding: 0 25px;
+        
+      }
+      .wrapper .box{
+        background: #fff;
+        border-radius: 3px;
+        
+      }
+      .wrapper .box:hover{
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.15);  
+      }
+      .wrapper .box i.quote{
+        font-size: 20px;
+        color: #17a2b8;
+      }
+      .wrapper .box .content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+      }
+      .box .info .name{
+        font-weight: 600;
+        font-size: 17px;
+      }
+      .box .info .job{
+        font-size: 16px;
+        font-weight: 500;
+        color: #17a2b8;
+      }
+      .box .info .stars{
+        margin-top: 2px;
+      }
+      .box .info .stars i{
+        color: #17a2b8;
+      }
+      .box .content .image{
+        height: 75px;
+        width: 75px;
+        padding: 3px;
+        background: #17a2b8;
+        border-radius: 50%;
+      }
+      .content .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #fff;
+      }
+      .box:hover .content .image img{
+        border-color: #fff;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
