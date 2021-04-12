@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/88225b2944.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Vintage</h1>
+        <div>
+            <a><i class="fas fa-bars"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Registrarse</a></li>
+                <li><a href="#">Ingresar</a></li>
+            </ul>
+            <i class="fas fa-shopping-cart"></i>
+        </nav>
+
+        <form action="#" method="GET">
+            <div class="box">
+                <input type="text" name="search" autocomplete="off" placeholder="Buscar marcas y productos" class="ssrc">
+            </div>
+        </form>
+    </header>
+    <main class="fondito">
+        <section>
+            <h1>Mi Carrito</h1>
+            <script>
+                var cantidadProductos;
+                cantidadProductos = 2;
+                var text = cantidadProductos + " productos";
+
+                document.write(text);
+            </script>
+        </section>
+
+        <article class="detalle">
+            <img src="/img/ropa1.jpg" alt="ropa1" width="250px">
+            <div class="descProduct">
+            </div>
+            <div class="descProduct">
+                <h3 class="nombre">Remera Palestina</h3>
+                <p class="talle">Talle: M</p>
+                <p class="numero-de-item">Numero de item: 35654</p>
+            </div>
+            <button type="reset" class="fas fa-trash-alt"></button>
+            <div class="precio">Precio: $2.800</div>
+        </article>
+
+        <article class="detalle">
+            <img src="/img/ropa2.jpg" alt="ropa2" width="250px">
+            <div class="descProduct">
+            </div>
+            <div class="descProduct">
+                <h3 class="nombre">Buzo Canguro</h3>
+                <p class="talle">Talle: M</p>
+                <p class="numero-de-item">Numero de item: 26654</p>
+            </div>
+            <button type="reset" class="fas fa-trash-alt"></button>
+            <div class="precio">Precio: $3.600</div>
+        </article>
+        <div class="asd">Calcular costo de envio:
+            <form action="get">
+                <input type="text" name="costo-de-envio">
+                <p class="cartelito">Subtotal:</p>
+                <p class="cartelito">Costo de envio:</p>
+                <h3 class="cartelito">Total:</h3>
+                <button type="submit" class="finalizar-compra">Finalizar compra</button>
+            </form>
+        </div>
+        <h2 class="titureco">Recomendado para vos</h2>
+        <section class="recomm">
+            <div>
+                <img src="/img/ropa3.jpg" alt="ropa3" width="250px">
+            </div>
+            <div>
+                <img src="/img/ropa4.jpg" alt="ropa4" width="250px">
+            </div>
+            <div>
+                <img src="/img/ropa5.jpg" alt="ropa5" width="250px">
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="contacto" class="distanciafooter">
+        <h5>Seguinos en </h5>
+        <div class="contenedor-redes">
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            <div>
+                <a href="#"><i class="fab fa-google-plus"></i></a>
+            </div>
+        </div>
+        <div>
+            <p> &copy; Copyright-Digital House- Vintage 2021</p>
+        </div>
+    </footer>
+</body>
+
+</html>
